@@ -2,11 +2,32 @@
   <head>
     <meta charset="utf8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Getting started template</title>
+    <title>Mini Hackathon</title>
+    <link rel="icon" type="image/png" href="./assets/facicon.ico">
     <link rel="stylesheet" href="bundle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+      BODY {
+        background: #282931;
+        -webkit-font-smoothing: antialiased;
+        font-family: 'Varela Round', sans-serif;
+        height: 100%;
+      }
+      
+      canvas {
+        height: 100vh;
+        z-index: -10;
+        position: fixed;
+        top: 0px;
+      }
+      </style>
   </head>
 
   <body>
+    
     <script src="bundle.js"></script>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  <script src="particlesHelper.js"></script>
 </html>
