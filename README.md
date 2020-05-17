@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d5fa9df7-6ad3-4518-b1fd-5df145df6b5c/deploy-status)](https://app.netlify.com/sites/dreamy-lalande-35da01/deploys)
+
 ## Getting started with SvelteJS v3
 
 This is a simple web using [Svelte](https://v3.svelte.technology) from [svelte-starter-template](https://github.com/Holben888/svelte-starter-template.git). To get going, make sure we have [NodeJS](https://nodejs.org/en/) and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed.
