@@ -2,7 +2,7 @@
 
 ## Getting started with SvelteJS v3
 
-This is a simple web using [Svelte](https://v3.svelte.technology) from [svelte-starter-template](https://github.com/Holben888/svelte-starter-template.git). To get going, make sure we have [NodeJS](https://nodejs.org/en/) and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed.
+This is a simple web using [Svelte](https:// .svelte.technology) from [svelte-starter-template](https://github.com/Holben888/svelte-starter-template.git). To get going, make sure we have [NodeJS](https://nodejs.org/en/) and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed.
 
 ...install all project dependencies...
 
@@ -13,10 +13,10 @@ npm install
 ...and build the application.
 
 ```
-npm run build
+npm run dev
 ```
 
-File `rollup.config.js` imports for "live-reload" and "serve." These allow the website to rebuild itself automatically when you add new code.
+For the above commmand, file `rollup.config.js` imports for "live-reload" and "serve." Compared to `npm run build`, these allow the website to rebuild itself automatically when you add new code.
 
 ## Next steps
 

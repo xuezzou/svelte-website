@@ -13,6 +13,7 @@
     "svelte": "3.0.0-beta.3"
   },
   "scripts": {
-    "build": "rollup -c rollup.config.js --watch"
+    "dev": "rollup -c rollup.config.js --watch",
+    "build": "rollup -c"
   }
 }
