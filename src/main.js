@@ -1,4 +1,4 @@
-import App from './src/index.html'
+import App from './index.html'
 
 const app = new App({
   target: document.body,
