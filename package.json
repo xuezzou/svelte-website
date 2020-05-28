@@ -2,7 +2,7 @@
   "name": "svelte-website",
   "version": "1.0.0",
   "main": "main.js",
-  "author": "Holben888 <holben888@gmail.com> & ilfam",
+  "author": "ilfam",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "11.0.2",
