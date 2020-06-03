@@ -32,6 +32,9 @@
   // placeholder url for all links in the page
   const vhPlaceholderURL = "https://vandyhacks.org/";
 
+  const introText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+  // TODO 
   // define faq items
   const questionSetLeft = [
     {
@@ -197,9 +200,9 @@
 
   .visit {
     color: white;
-    font-size: 12px;
+    font-size: 1.5rem;
     background: #32333a;
-    width: 146px;
+    width: 12rem;
     padding: 6px;
     border-radius: 10px;
     position: fixed;
@@ -248,7 +251,7 @@
 </style>
 
 <div class="visit" transition:fade={{ duration: 2000 }}>
-  <a href="https://vandyhacks.org/" target="_blank">Let's build a snowman?</a>
+  <a href="https://apply.vandyhacks.org/" target="_blank">Register here!</a>
 </div>
 <div id="particles-js">
   <div class="container">
@@ -259,7 +262,7 @@
             xmlns="http://www.w3.org/2000/svg"
             id="Layer_1"
             data-name="Layer 1"
-            viewBox="0 0 4300 430">
+            viewBox="0 0 430 430" width="9rem" height="9rem">
             <g>
               <path
                 style="stroke:#fff; fill:#282931; stroke-width:0.1rem;"
