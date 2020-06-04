@@ -42,9 +42,9 @@ margin-top: 2rem;
 
 <!-- TODO add links -->
 <ul>
-  <li><a href="https://vandyhacksvi.devpost.com/" target="_blank" rel="noopener noreferrer">Devpost Link<span class="new">! ! !</span></li>
+  <li><a href="https://vandyhacksvi.devpost.com/" target="_blank" rel="noopener noreferrer">Devpost Link <span class="new">! ! !</span></li>
   <li><a href="https://learn.vandyhacks.org/" target="_blank" rel="noopener noreferrer">Workshop Link</li>
-  <li><a href="" target="_blank" rel="noopener noreferrer">Hacker Guide<span class="new">YEAH</span></a></li>
+  <li><a href="" target="_blank" rel="noopener noreferrer">Hacker Guide <span class="new">YEAH</span></a></li>
 </ul>
 
 

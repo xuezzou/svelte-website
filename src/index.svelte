@@ -290,7 +290,7 @@
 
        <!-- countdown -->
        <div class="one-third column">
-       <h1>countdown!!!!!</h1>
+       <h1>countdown here <br/> 00:00!!!!!</h1>
        </div>
     </div>
 
@@ -333,7 +333,7 @@
       </div>
     </div>
   </div>
-ß
+
   
 
   <!-- count down and resource link goes here -->
