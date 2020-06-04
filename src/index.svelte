@@ -6,6 +6,7 @@
   import Schedule from './schedule.svelte';
   import Countdown from './countdown.svelte';
   import Links from './links.svelte';
+  import Cards from './cards.svelte';
 
   // type writer effect
   function typewriter(node, { delay = 0, speed = 70 }) {
@@ -289,7 +290,7 @@
 
        <!-- countdown -->
        <div class="one-third column">
-       countdown!!!!
+       <h1>countdown!!!!!</h1>
        </div>
     </div>
 
@@ -321,11 +322,18 @@
 
       <div class="two-thirds column pulled">
         <h1>Schedule</h1>
-      <Schedule />
+        <Schedule />
+      </div>
     </div>
-   </div>
-  </div>
 
+    <div class="row">
+      <div class="pulled">
+        <h1>Non-profic projects</h1>
+        <Cards  />
+      </div>
+    </div>
+  </div>
+ß
   
 
   <!-- count down and resource link goes here -->

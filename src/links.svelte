@@ -32,6 +32,10 @@ span.new {
 ul li span {
   font-size: 1.2rem;
 }
+
+ul {
+margin-top: 2rem;
+}
 </style>
 
 <links>

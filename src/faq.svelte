@@ -36,8 +36,8 @@
   display: block;
   cursor: pointer;
   margin-right: 2rem;
-
-    -o-transition: .5s;
+  /* add smoother transition */
+  -o-transition: .5s;
   -ms-transition: .5s;
   -moz-transition: .5s;
   -webkit-transition: .5s;
