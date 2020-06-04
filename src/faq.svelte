@@ -40,7 +40,7 @@
 
 .panel-content {
   color: #bbbbc4;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 0 1rem;
   margin: 0 2rem;
   height: 0;
