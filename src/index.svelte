@@ -161,10 +161,6 @@
     font-size: 3rem;
   }
 
-  .pulled ul li span {
-    font-size: 1.2rem;
-  }
-
   .footer {
     padding-top: 5rem;
   }
@@ -185,15 +181,6 @@
     right: 20px;
     text-align: center;
     z-index: 2;
-  }
-
-  /* coul be use such as: <span class="new">YEAH</span> */
-  span.new {
-    background-color: #fc3565;
-    font-weight: 700;
-    padding: 0.2rem;
-    margin-left: 0.4rem;
-    color: #fff;
   }
 
   .header-space {
