@@ -140,7 +140,6 @@
   .logo {
     color: white;
     padding: 5rem 0 2rem 0;
-    min-width: 800;
   }
 
   .top {
@@ -198,6 +197,12 @@
   @media (min-width: 550px) {
   }
 
+  @media (max-width: 550px) {
+    .header-space {
+      height: 0rem;
+    } 
+  }
+
   /* Larger than tablet */
   @media (min-width: 750px) {
   }
@@ -215,7 +220,7 @@
 </style>
 
 <div class="visit" transition:fade={{ duration: 2000 }}>
-  <a href="https://apply.vandyhacks.org/" target="_blank">Register here!</a>
+  <a href="https://apply.vandyhacks.org/" target="_blank">Register here!!!</a>
 </div>
 <div id="particles-js">
   <div class="container">
@@ -281,24 +286,27 @@
     </div>
 
     <div class="row">
-      <div class="two-thirds column">
+      <div class="two-thirds column" transition:fly={{ x: -200, duration: 2000, delay: 4000 }}>
         <div class="pulled intro">
           <h1>Welcome!</h1>
           <p>{introText}</p>
         </div>
-       </div>
+      </div>
 
-       <!-- countdown -->
-       <div class="one-third column">
-       <h1>countdown here <br/> 00:00!!!!!</h1>
-       </div>
+      <!-- countdown -->
+      <div class="one-third column" transition:fly={{ x: 200, duration: 2000, delay: 4500 }}>
+      <div class="pulled">
+        <Countdown />
+      </div>
+        
+      </div>
     </div>
 
     <div class="row">
       <div
         class="one-half column"
         transition:fly={{ x: -200, duration: 2000, delay: 4000 }}>
-        <div class="pulled">
+        <div class="pulled" style="margin-bottom: 0rem">
           <h1>FAQ</h1>
           <FAQ questionSet={questionSetLeft} identifier="left" />
         </div>
@@ -315,28 +323,25 @@
     </div>
 
     <div class="row">
-      <div class="one-third column pulled">
+      <div class="one-third column pulled" transition:fly={{ x: -200, duration: 2000, delay: 4000 }}>
         <h1>Links</h1>
         <Links />
       </div>
 
-      <div class="two-thirds column pulled">
+      <div class="two-thirds column pulled" transition:fly={{ x: 200, duration: 2000, delay: 4500 }}>
         <h1>Schedule</h1>
         <Schedule />
       </div>
     </div>
 
     <div class="row">
-      <div class="pulled">
+      <div class="pulled" transition:fly={{ y: 200, duration: 2000, delay: 5000 }}>
         <h1>Non-profic projects</h1>
         <Cards  />
       </div>
     </div>
   </div>
 
-  
-
-  <!-- count down and resource link goes here -->
 
   <div class="container">
     <div

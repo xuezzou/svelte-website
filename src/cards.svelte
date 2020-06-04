@@ -45,14 +45,12 @@ const card_data = [
   margin: 1.5rem;
   cursor: pointer;
 
-  
-
   /* margin-left: auto;
   margin-right: auto; */
   margin-top: 4rem;
-  min-height: 33em;
+  /* important variable */
+  min-height: 35em;
   background-color: rgba(0, 0, 0, 0.2);
-
 
   transition: all 0.2s ease-out;
 }
@@ -76,6 +74,7 @@ const card_data = [
 
 .card-body > .text-wrapper {
   padding: 1.5em;
+  padding-bottom: 2.7rem;
   font-family: 'Lato';
   border-radius: 0 0 4px 4px;
 }
@@ -89,6 +88,12 @@ const card_data = [
   font-size: 1.1em;
   line-height: 1.7em;
 }
+
+@media (max-width: 550px) {
+    .card-body {
+      min-height: 0rem;
+    } 
+  }
 </style>
 
 <!-- create a map -->
