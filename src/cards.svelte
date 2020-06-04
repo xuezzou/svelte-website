@@ -81,7 +81,6 @@ const card_data = [
 .card-body > .text-wrapper {
   padding: 1.5em;
   padding-bottom: 2.7rem;
-  font-family: 'Lato';
   border-radius: 0 0 4px 4px;
 }
 
