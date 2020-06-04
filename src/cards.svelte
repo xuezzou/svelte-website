@@ -60,6 +60,12 @@ const card_data = [
   background: #ffdb73;
   color: #32333a;
 }
+.card-body:click {
+  box-shadow: 0 0 2em 0px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+  background: #ffdb73;
+  color: #32333a;
+}
 
 .card-body:active {
   transform: scale(1.01) translateY(0.2rem);
@@ -103,16 +109,16 @@ const card_data = [
 <div class="one-third column">
   <div class="card-body">
     <div class="icon-wrapper section">
-      <span class="icon">
+      <div class="icon">
         <!-- <i class={item.icon} aria-hidden="true"></i> -->
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="6rem" height="6rem" viewBox="0 0 16 16">
           {@html item.icon}
         </svg>
-      </span>
+      </div>
     </div>
     <div class="text-wrapper section">
-      <div class="title"><span>{ item.title }</span></div>
-      <div class="details"><span>{ item.details }</span></div>
+      <div class="title">{ item.title }</div>
+      <div class="details">{ item.details }</div>
     </div>
   </div>
 </div>
