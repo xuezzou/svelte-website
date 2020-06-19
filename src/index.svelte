@@ -42,67 +42,60 @@
   // define faq items
   const questionSetLeft = [
     {
-      question: "Who can apply?",
-      answer:
-        "Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. International students are invited to apply and attend, but we cannot guarantee full travel reimbursement."
-    },
-    {
-      question: "How does registration work?",
-      answer:
-        "Applications are now open! Acceptance is determined by a variety of factors, and applications will be reviewed by our board on a rolling basis. Once you’re accepted, you’ll receive an email from the VandyHacks team. If you're curious, email us for more info at"
-    },
-    {
-      question: "What if I'm a Vanderbilt student?",
-      answer:
-        "All Vanderbilt students are encouraged to attend, regardless of major or background."
-    },
-    {
-      question: "Are walk-ins allowed?",
-      answer:
-        "We ask that everyone complete an application, but walk-ins will be accepted if space allows. We cannot guarantee swag for walk-ins."
-    },
-    {
-      question: "How do I get there?",
-      answer:
-        "Cars, buses, or flights, depending on location! We'll be sending buses to specific schools with large numbers of applicants."
-    },
-
-    {
-      question: "I have more questions!",
-      answer:
-        "Send us an email at info@vandyhacks.org! We'll be happy to answer!"
-    }
-  ];
-  const questionSetRight = [
-    {
       question: "What is a hackathon?",
       answer:
         "Hackathons are events where students from across the country come together for a weekend of innovation and creativity. Participants have 36 hours to create anything that shows off their creativity and passion for development. You may choose any platform, programming language, or format to show your stuff. You can even present a storyboard or idea; there’s no end to the possibilities!"
     },
     {
-      question: "I have no idea how to code. Can I still attend?",
+      question: "I have no coding experience. Can I still attend?",
       answer:
         "Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!"
     },
     {
       question: "What if I've never been to a hackathon?",
       answer:
-        "Not to worry! A few weeks before the event, you’ll receive an email with a link to our hacker guide, which will contain all the information you need to make the most out of your weekend. During the event, the VandyHacks Team will be around to help answer any questions. As always, feel free to email us at"
+        "Not to worry! A few weeks before the event, you’ll receive an email with a link to our hacker guide, which will contain all the information you need to make the most out of your weekend. During the event, the VandyHacks Team will be around to help answer any questions. As always, feel free to email us at info@vandyhacks.org, or reach out on Discord."
+    },
+    {
+      question: "What do I need?",
+      answer:
+        "Some kind of device you can write code on, and an internet connection!"
     },
     {
       question: "How are teams formed? Do I need a team?",
       answer:
-        "Teams are limited to four people. If you're applying with a team, we will review all of your team members' applications to determine admission. We will also have a pitch session where attendees can share their ideas and find potential teammates. However, teams are not required, so feel free to work individually."
+        "Teams are formed in the #team-finding channel–feel free to find people that share interests, and get building. We'll also provide a virtual space to meet teams. However, teams are not required, so feel free to work individually."
     },
     {
       question: "Will there be other activities besides hacking?",
       answer:
-        "Of course! This year, we've planned a bunch of fun events for attendees to relax. Stay tuned for more info!"
+        "Of course! We'll have workshops and other activities throughout the event."
+    },
+  ];
+  const questionSetRight = [
+    {
+      question: "Who can apply?",
+      answer:
+        "Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID."
+    },
+    {
+      question: "How does registration work?",
+      answer:
+        "Since this is an online event, we want to open registration to anyone that is interested. If you're curious, email us for more info at info@vandyhacks.org."
+    },
+    {
+      question: "How do I submit a project?",
+      answer: "This year, we'll be submitting projects on Devpost."
     },
     {
       question: "What if I’m interested in being a mentor?",
-      answer: "Send us an email at: "
-    }
+      answer: "Send us an email at: info@vandyhacks.org"
+    },
+    {
+      question: "I have more questions!",
+      answer:
+        "Send us an email at info@vandyhacks.org! We'll be happy to answer!"
+    },
   ];
 </script>
 
@@ -281,7 +274,7 @@
           </svg>
         </div>
         <h1 transition:typewriter={{ delay: 1000 }}>June Mini-Hackathon</h1>
-        <h2 transition:typewriter={{ delay: 2600 }}>Coming June 27, 2020</h2>
+        <h2 transition:typewriter={{ delay: 2600 }}>Coming July 11, 2020</h2>
       </div>
     </div>
 
