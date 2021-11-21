@@ -2,7 +2,7 @@
 
 ## Getting started with SvelteJS v3
 
-This is a simple web using [Svelte](https:// .svelte.technology) from [svelte-starter-template](https://github.com/Holben888/svelte-starter-template.git) and [svelte-template](https://github.com/sveltejs/template). To get going, make sure we have [NodeJS](https://nodejs.org/en/) and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed.
+This is a simple web using [Svelte](https://svelte.dev) from [svelte-starter-template](https://github.com/Holben888/svelte-starter-template.git) and [svelte-template](https://github.com/sveltejs/template). To get going, make sure we have [NodeJS](https://nodejs.org/en/) and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed.
 
 ...install all project dependencies...
 
